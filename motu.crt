@@ -1,0 +1,72 @@
+{
+    "name": "\/CN=Motu",
+    "subject": {
+        "CN": "Motu"
+    },
+    "hash": "c78e2015",
+    "issuer": {
+        "CN": "Motu"
+    },
+    "version": 2,
+    "serialNumber": "0x546B1036F9535D24336DB1BC4BBB4AD6858AE63F",
+    "serialNumberHex": "546B1036F9535D24336DB1BC4BBB4AD6858AE63F",
+    "validFrom": "230619144841Z",
+    "validTo": "330616144841Z",
+    "validFrom_time_t": 1687186121,
+    "validTo_time_t": 2002546121,
+    "signatureTypeSN": "RSA-SHA256",
+    "signatureTypeLN": "sha256WithRSAEncryption",
+    "signatureTypeNID": 668,
+    "purposes": {
+        "1": [
+            true,
+            true,
+            "sslclient"
+        ],
+        "2": [
+            true,
+            true,
+            "sslserver"
+        ],
+        "3": [
+            true,
+            true,
+            "nssslserver"
+        ],
+        "4": [
+            true,
+            true,
+            "smimesign"
+        ],
+        "5": [
+            true,
+            true,
+            "smimeencrypt"
+        ],
+        "6": [
+            true,
+            true,
+            "crlsign"
+        ],
+        "7": [
+            true,
+            true,
+            "any"
+        ],
+        "8": [
+            true,
+            true,
+            "ocsphelper"
+        ],
+        "9": [
+            false,
+            true,
+            "timestampsign"
+        ]
+    },
+    "extensions": {
+        "subjectKeyIdentifier": "1A:DB:2C:AF:EC:02:B8:AA:5F:E4:C2:39:5F:ED:C9:21:C1:9F:23:57",
+        "authorityKeyIdentifier": "keyid:1A:DB:2C:AF:EC:02:B8:AA:5F:E4:C2:39:5F:ED:C9:21:C1:9F:23:57\n",
+        "basicConstraints": "CA:TRUE"
+    }
+}
